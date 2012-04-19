@@ -1,0 +1,102 @@
+Platform0
+  profile: "FULL_PROFILE"
+  version: "OpenCL 1.1 AMD-APP (898.1)"
+  name: "AMD Accelerated Parallel Processing"
+  vendor: "Advanced Micro Devices, Inc."
+  extensions: "cl_khr_icd cl_amd_event_callback cl_amd_offline_devices cl_khr_d3d10_sharing"
+  Device0
+    type_names: ["GPU"]
+    single_fp_config_names: ["INF_NAN", "ROUND_TO_NEAREST", "ROUND_TO_ZERO", "FMA"]
+    execution_capability_names: ["KERNEL"]
+    queue_property_names: ["PROFILING_ENABLE"]
+    global_mem_cache_type_name: "none"
+    local_mem_type_name: "global"
+    max_work_item_sizes: [128, 128, 128]
+    vendor_id: 4098
+    max_compute_units: 8
+    max_work_item_dimensions: 3
+    preferred_vector_width_char: 16
+    preferred_vector_width_short: 8
+    preferred_vector_width_long: 2
+    preferred_vector_width_float: 4
+    preferred_vector_width_double: 0
+    max_clock_frequency: 550
+    address_bits: 32
+    max_read_image_args: 0
+    max_write_image_args: 0
+    max_samplers: 0
+    mem_base_addr_align: 2048
+    min_data_type_align_size: 128
+    global_mem_cacheline_size: 0
+    max_constant_args: 8
+    max_mem_alloc_size: 134217728
+    global_mem_cache_size: 0
+    global_mem_size: 536870912
+    max_constant_buffer_size: 65536
+    local_mem_size: 16384
+    image_support: false
+    error_correction_support: false
+    endian_little: true
+    available: true
+    compiler_available: true
+    name: "ATI RV730\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+    vendor: "Advanced Micro Devices, Inc.\000\000\000"
+    profile: "FULL_PROFILE"
+    version: "OpenCL 1.0 AMD-APP (898.1)"
+    extensions: "cl_khr_gl_sharing cl_amd_device_attribute_query cl_khr_d3d10_sharing "
+    max_work_group_size: 128
+    image2D_max_width: 0
+    image2D_max_height: 0
+    image3D_max_width: 0
+    image3D_max_height: 0
+    image3D_max_depth: 0
+    max_parameter_size: 1024
+    profiling_timer_resolution: 1
+  Device1
+    type_names: ["CPU"]
+    single_fp_config_names: ["DENORM", "INF_NAN", "ROUND_TO_NEAREST", "ROUND_TO_ZERO", "FMA"]
+    execution_capability_names: ["KERNEL", "NATIVE_KERNEL"]
+    queue_property_names: ["PROFILING_ENABLE"]
+    global_mem_cache_type_name: "read write cache"
+    local_mem_type_name: "global"
+    max_work_item_sizes: [1024, 1024, 1024]
+    vendor_id: 4098
+    max_compute_units: 2
+    max_work_item_dimensions: 3
+    preferred_vector_width_char: 16
+    preferred_vector_width_short: 8
+    preferred_vector_width_long: 2
+    preferred_vector_width_float: 4
+    preferred_vector_width_double: 0
+    max_clock_frequency: 2194
+    address_bits: 32
+    max_read_image_args: 128
+    max_write_image_args: 8
+    max_samplers: 16
+    mem_base_addr_align: 1024
+    min_data_type_align_size: 128
+    global_mem_cacheline_size: 64
+    max_constant_args: 8
+    max_mem_alloc_size: 1073741824
+    global_mem_cache_size: 32768
+    global_mem_size: 2147483648
+    max_constant_buffer_size: 65536
+    local_mem_size: 32768
+    image_support: true
+    error_correction_support: false
+    endian_little: true
+    available: true
+    compiler_available: true
+    name: "Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+    vendor: "GenuineIntel\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"
+    profile: "FULL_PROFILE"
+    version: "OpenCL 1.1 AMD-APP (898.1)"
+    extensions: "cl_khr_fp64 cl_amd_fp64 cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_gl_sharing cl_ext_device_fission cl_amd_device_attribute_query cl_amd_vec3 cl_amd_printf cl_amd_media_ops cl_amd_popcnt cl_khr_d3d10_sharing "
+    max_work_group_size: 1024
+    image2D_max_width: 8192
+    image2D_max_height: 8192
+    image3D_max_width: 2048
+    image3D_max_height: 2048
+    image3D_max_depth: 2048
+    max_parameter_size: 4096
+    profiling_timer_resolution: 466
